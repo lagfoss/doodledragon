@@ -8,10 +8,21 @@ ul {
     margin: 0;
     padding: 0;
 }
+nav{
+  display: flex;
 
+  justify-content: flex-end;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+  font-size: x-large;
+  margin-right: 20px;
+}
+.top_menu{
 
+}
 .top_menu ul {
     list-style-type: none;
+
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -20,7 +31,7 @@ ul {
 
 .top_menu li {
     float: left;
-    padding: 0 20px 0 0;
+    padding: 30px 10px 0 0;
 }
 
  .top_menu li a {
@@ -41,21 +52,17 @@ li {
     display: inline;
     padding-left: 20px;
 }
-
+.clear{
+  width: 100%
+  clear: both;
+}
 .logo{
   float: left;
-  margin: 10px;
+  margin: 5px 0 0 10px;
   height: 80px;
 }
 
-nav{
-  display: flex;
-  justify-content: flex-end;
-  font-family: 'Gloria Hallelujah', cursive;
-  text-align: center;
-  font-size: x-large;
-  margin-right: 20px;
-}
+
 .indhold {
   display: flex;
   flex-wrap: wrap;
@@ -161,6 +168,8 @@ header {
   background-image:url("../images/03.jpg");
   background-repeat: no-repeat;
   background-position: top center;
+  width: 100%;
+  height: 90px;
 
 }
 
@@ -366,9 +375,7 @@ float: right;
 
 
   }
-  .header {
-    height: 500px;
-  }
+
 }
 
 /* Tablet Styles */
