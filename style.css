@@ -1,0 +1,422 @@
+/* ----- THOMAS CSS ----- */
+body{ margin: auto;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.indhold {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Montserrat', sans-serif;
+}
+
+article{
+  margin: auto;
+  margin-top: 25%;
+  margin-bottom: 20%;
+  vertical-align: middle;
+  width: 75%;
+  height: 75%;
+  letter-spacing: 1.6pt;
+  line-height: 1.5;
+  color: #1d1d1b;
+
+
+}
+.indhold h2{
+  color:#1d1d1b;
+  margin: auto;
+  font-size: 24px;
+
+
+  text-align: left;
+
+}
+
+
+.section {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box1 {
+  background-image: url("../images/vr-large.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.box1b {
+  background-image: url("../images/business-large.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+
+.box2 {
+  background-color: #eaeaea;
+}
+.box3 {
+  background-color: #eaeaea;
+  text-align: center;
+}
+.box3 h2{
+  text-align: center;
+  margin-top: 60px;
+
+}
+
+
+
+.space{ width: 100%;
+margin: 10px 0 0 0;}
+
+.partner{
+  margin: auto;
+  text-align: center;
+  margin: 80px 0 60px 0;
+
+}
+.partner h3{
+  margin: 0 0 20px 0;
+}
+
+/* ----- THOMAS CSS SLUT ----- */
+
+h1{
+}
+h2{
+  margin: auto;
+  font-size: 30px;
+  margin: 60px 0 20px 0;
+
+  text-align: center;
+
+}
+h3{
+  text-align: center;
+  margin: auto;
+  font-weight: lighter;
+  font-style: italic;
+  padding: 0 100px 0 100px;
+  margin: 0px 0 60px 0;
+
+
+}
+h4{
+
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:10%;
+  width: 25%;
+  height: 25%;
+  min-width:200px;
+}
+
+header {
+  background-image:url("../images/03.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+
+}
+
+header h1 {
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+header h3 {
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat';
+  padding-bottom: 100px;
+  font-style: italic;
+}
+
+/* CONTACT Form*/
+input, textarea {
+  padding: 10px;
+  border: 2px solid #E5E5E5;
+  width: 250px;
+}
+
+textarea {
+  width: 500px;
+  height: 200px;
+
+  max-height: 250px;
+  line-height: 17px;
+  margin-bottom: 20px;
+}
+
+.formular label {
+  margin-left: 10px;
+}
+
+.send input {
+  width: 150px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  background-color: #474E69;
+  color: #FFFFFF;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #e30613;
+    color: white;
+    letter-spacing: 1.5pt;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    padding: 12px 20px;
+    border: none;
+    float: right;
+}
+
+
+
+.kontakt {
+    border-radius: 5px;
+
+    background-color: #eaeaea;
+    padding: 50px 100px 100px 100px;
+    margin: 0px 0 0 0;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+#footer {
+    width:100%;
+float: left;
+    background-color: #1d1d1b;
+    padding:14px 0;
+    color:#fff;
+    border-top:2px solid #e30613;
+    bottom:0;
+}
+#footer-inner {
+    width:80%;
+    height: 30px;
+
+    margin:20px auto 0 auto;
+}
+
+.footer-logo{
+  width: 25%;
+  float: left;
+  height: auto;
+
+}
+.footer-tekst{
+  float: left;
+
+
+}
+.footer-kasser {
+  float: left;
+
+  width: 100%;
+  overflow: auto;
+}
+.kasse {
+  float: left;
+
+  width: 35%;
+  height: 100px;
+}
+.kasse2 {
+  float: left;
+
+  line-height:1.7;
+  font-size: 12px;
+letter-spacing: 1.2pt;
+  width: 40%;
+  height: 100px;
+}
+.kasse3 {
+  float: right;
+  line-height: 2;
+  width: 25%;
+  height: 100px;
+
+}
+
+h5{float: left;
+  font-size: 11px;
+  margin: 0 0 0 0;
+  text-transform: uppercase;
+  padding: 4px 12px 12px 0;
+  display: inline-block;
+
+
+}
+
+.sm{
+float: right;
+  line-height: 2;
+
+
+}
+
+
+@media (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .indhold {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .box1,
+  .box2,
+  .box3,
+  .box1b{
+    width: 50%;
+    height: 500px;
+    max-height: 500px;
+
+
+  }
+  .header {
+    height: 500px;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 701px) and (max-width: 960px) {
+  .box1,
+  .box2,
+  .box3,
+  .box1b {
+    width: 50%;
+    max-height: 500px;
+        }
+
+        .kasse3 {
+
+          line-height: 2;
+          width: 100%;
+          height: 100px;
+        }
+        h5{float: left;
+
+          margin: 0 0 0 0;
+          text-transform: uppercase;
+            padding-right: 30px;
+
+
+        }
+
+        .sm{
+        float: left;
+          line-height: 2;
+
+
+
+        }
+
+      }
+@media only screen and (max-width: 701px) {
+  .box1{ order: 1;
+
+  }
+  .box2{order: 2;
+  }
+
+  .kasse1 {
+    line-height: 2;
+    width: 100%;
+    height: 100px;
+  }
+  .kasse2 {
+
+    line-height: 2;
+    width: 100%;
+    height: 100px;
+  }
+
+  .kasse3 {
+
+    line-height: 2;
+    width: 100%;
+    height: 100px;
+  }
+  h5{float: left;
+    margin: 0 0 0 0;
+    text-transform: uppercase;
+      padding-right: 30px;
+
+
+  }
+
+  .sm{
+  float: left;
+    line-height: 2;
+
+
+
+  }
+  
+
+
+}
+@media only screen and (max-width: 1201px) {
+.kasse3{float: left;
+
+}
+.sm{
+float: left;
+  line-height: 2;
+
+}
+
+  }
