@@ -69,7 +69,7 @@ nav{
 .indhold {
   display: flex;
   flex-wrap: wrap;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Coming Soon', cursive;
 }
 
 article{
@@ -174,16 +174,12 @@ header {
   height: 90px;
 }
 
-header {
-  width: 100%;
-  height: 90px;
-}
-
 /* CONTACT Form*/
 input, textarea {
   padding: 10px;
   border: 2px solid #E5E5E5;
   width: 250px;
+  font-family: 'Coming Soon', cursive;
 }
 
 textarea {
@@ -200,7 +196,7 @@ textarea {
 
 .send input {
   width: 150px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Coming Soon', cursive;
   font-size: 17px;
   background-color: #474E69;
   color: #FFFFFF;
@@ -219,6 +215,7 @@ input[type=text], select, textarea{
 label {
     padding: 12px 12px 12px 0;
     display: inline-block;
+    font-family: 'Coming Soon', cursive;
 }
 
 input[type=submit] {
@@ -226,7 +223,7 @@ input[type=submit] {
     color: white;
     letter-spacing: 1.5pt;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Coming Soon', cursive;
     padding: 12px 20px;
     border: none;
     float: right;
