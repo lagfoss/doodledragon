@@ -37,6 +37,7 @@ nav{
 }
 
 .top_menu li a:hover {
+  color: #64b067;
 
 }
 
@@ -100,7 +101,7 @@ article{
 }
 
 .box1 {
-  background-image: url("../images/vr-large.jpg");
+  background-image: url("foto/front_book.jpg");
   background-position: center;
   background-size: cover;
 }
