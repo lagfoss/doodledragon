@@ -173,16 +173,12 @@ header {
   height: 90px;
 }
 
-header {
-  width: 100%;
-  height: 90px;
-}
-
 /* CONTACT Form*/
 input, textarea {
   padding: 10px;
   border: 2px solid #E5E5E5;
   width: 250px;
+  font-family: 'Coming Soon', cursive;
 }
 
 textarea {
@@ -218,6 +214,7 @@ input[type=text], select, textarea{
 label {
     padding: 12px 12px 12px 0;
     display: inline-block;
+    font-family: 'Coming Soon', cursive;
 }
 
 input[type=submit] {
