@@ -1,30 +1,27 @@
 /* ----- THOMAS CSS ----- */
-body{ margin: auto;
-  font-family: 'Montserrat', sans-serif;
-
-}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
 nav{
   display: flex;
   font-size: 14pt;
   justify-content: flex-end;
   font-family: 'Gloria Hallelujah', cursive;
   text-align: center;
-
   margin-right: 20px;
 }
+
 .top_menu{
   margin-right: -20px;
 }
+
 .top_menu ul {
     list-style-type: none;
     margin: 0;
     overflow: hidden;
-
 }
 
 .top_menu li {
@@ -36,7 +33,6 @@ nav{
     display: block;
     color: black;
     text-align: center;
-
     text-decoration: none;
 }
 
@@ -58,9 +54,8 @@ li {
   float: left;
   margin: 5px 0 0 10px;
   height: 80px;
-
-<<<<<<< HEAD
 }
+
 nav{
   display: flex;
   justify-content: flex-end;
@@ -69,11 +64,6 @@ nav{
   margin-right: 20px;
   padding-left: 20px;
 }
-=======
-
-}
-
->>>>>>> 546bfcdcc3155b3b083ac45b09a6fa1cff127f58
 
 .indhold {
   display: flex;
@@ -151,21 +141,15 @@ article{
 }
 
 /* ----- THOMAS CSS SLUT ----- */
-
-<<<<<<< HEAD
-=======
 h1{
   font-family: 'Gloria Hallelujah', cursive;
 }
->>>>>>> 546bfcdcc3155b3b083ac45b09a6fa1cff127f58
+
 h2{
   margin: auto;
   font-size: 30px;
   margin: 60px 0 20px 0;
-<<<<<<< HEAD
-=======
-font-family: 'Gloria Hallelujah', cursive;
->>>>>>> 546bfcdcc3155b3b083ac45b09a6fa1cff127f58
+  font-family: 'Gloria Hallelujah', cursive;
   text-align: center;
 }
 
@@ -177,49 +161,17 @@ h3{
   font-style: italic;
   padding: 0 100px 0 100px;
   margin: 0px 0 60px 0;
-<<<<<<< HEAD
 }
 
 header {
   width: 100%;
   height: 90px;
-=======
-
-
-}
-
-
 }
 
 header {
-
-
   width: 100%;
   height: 90px;
-
-
 }
-
-header h1 {
-  text-align: center;
-  padding-top: 50px;
-  color: white;
-  font-family: 'Montserrat';
-  font-weight: bold;
->>>>>>> 546bfcdcc3155b3b083ac45b09a6fa1cff127f58
-}
-
-header h3 {
-  text-align: center;
-  color: white;
-  font-family: 'Montserrat';
-  padding-bottom: 100px;
-  font-style: italic;
-}
-<<<<<<< HEAD
-=======
-
->>>>>>> 546bfcdcc3155b3b083ac45b09a6fa1cff127f58
 
 /* CONTACT Form*/
 input, textarea {
@@ -308,6 +260,7 @@ input[type=submit] {
     border-top:2px solid #e30613;
     bottom:0;
 }
+
 #footer-inner {
     width:80%;
     height: 30px;
@@ -322,36 +275,34 @@ input[type=submit] {
 
 .footer-tekst{
   float: left;
-
-
 }
+
 .footer-kasser {
   float: left;
-
   width: 100%;
   overflow: auto;
 }
+
 .kasse {
   float: left;
-
   width: 35%;
   height: 100px;
 }
+
 .kasse2 {
   float: left;
-
   line-height:1.7;
   font-size: 12px;
-letter-spacing: 1.2pt;
+  letter-spacing: 1.2pt;
   width: 40%;
   height: 100px;
 }
+
 .kasse3 {
   float: right;
   line-height: 2;
   width: 25%;
   height: 100px;
-
 }
 
 h5{float: left;
@@ -360,15 +311,11 @@ h5{float: left;
   text-transform: uppercase;
   padding: 4px 12px 12px 0;
   display: inline-block;
-
-
 }
 
 .sm{
 float: right;
   line-height: 2;
-
-
 }
 
 
@@ -409,35 +356,27 @@ float: right;
     width: 50%;
     max-height: 500px;
         }
-
+      }
         .kasse3 {
-
           line-height: 2;
           width: 100%;
           height: 100px;
         }
-        h5{float: left;
 
-          margin: 0 0 0 0;
-          text-transform: uppercase;
-            padding-right: 30px;
+  h5{float: left;
+        margin: 0 0 0 0;
+        text-transform: uppercase;
+        padding-right: 30px;
+  }
+  .sm{
+    float: left;
+    line-height: 2;
+  }
 
-
-        }
-
-        .sm{
-        float: left;
-          line-height: 2;
-
-
-
-        }
-
-      }
 @media only screen and (max-width: 701px) {
   .box1{ order: 1;
-
   }
+
   .box2{order: 2;
   }
 
@@ -446,46 +385,35 @@ float: right;
     width: 100%;
     height: 100px;
   }
-  .kasse2 {
 
+  .kasse2 {
     line-height: 2;
     width: 100%;
     height: 100px;
   }
 
   .kasse3 {
-
     line-height: 2;
     width: 100%;
     height: 100px;
   }
+
   h5{float: left;
     margin: 0 0 0 0;
     text-transform: uppercase;
       padding-right: 30px;
-
-
   }
 
   .sm{
   float: left;
     line-height: 2;
-
-
-
   }
 
-
-
-}
 @media only screen and (max-width: 1201px) {
 .kasse3{float: left;
-
 }
+
 .sm{
 float: left;
   line-height: 2;
-
 }
-
-  }
