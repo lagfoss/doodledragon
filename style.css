@@ -3,6 +3,20 @@ body{ margin: auto;
   font-family: 'Montserrat', sans-serif;
 
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    border-right: 2px;
+}
+nav{
+  display: flex;
+  justify-content: flex-end;
+}
 .indhold {
   display: flex;
   flex-wrap: wrap;
@@ -405,7 +419,7 @@ float: right;
 
 
   }
-  
+
 
 
 }
