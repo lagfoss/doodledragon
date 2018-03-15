@@ -154,13 +154,16 @@ h2{
 }
 
 h3{
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Coming Soon', cursive;
   text-align: center;
   margin: auto;
   font-weight: lighter;
   font-style: italic;
   padding: 0 100px 0 100px;
   margin: 0px 0 60px 0;
+}
+p{
+  font-family: 'Coming Soon', cursive;
 }
 
 header {
@@ -275,12 +278,14 @@ input[type=submit] {
 
 .footer-tekst{
   float: left;
+  font-family: 'Coming Soon', cursive;
 }
 
 .footer-kasser {
   float: left;
   width: 100%;
   overflow: auto;
+  font-family: 'Coming Soon', cursive;
 }
 
 .kasse {
@@ -311,6 +316,7 @@ h5{float: left;
   text-transform: uppercase;
   padding: 4px 12px 12px 0;
   display: inline-block;
+  font-family: 'Coming Soon', cursive;
 }
 
 .sm{
