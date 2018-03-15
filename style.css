@@ -2,7 +2,7 @@
 body{
   margin: 0;
   padding: 0;
-
+background-color: #eaeaea;
 
 }
 
@@ -73,7 +73,7 @@ nav{
   padding-left: 20px;
 }
 
-.main{
+main{
   width: 100%;
   margin: 20px 0 0 0;
   padding: 0;
@@ -182,7 +182,7 @@ h2{
   font-family: 'Gloria Hallelujah', cursive;
   text-align: center;
 }
-.main h3{
+main h3{
   font-family: 'Coming Soon', cursive;
   text-align: center;
   margin: auto;
@@ -210,9 +210,11 @@ p{
 header {
   width: 100%;
   min-height: 90px;
+  background-color: #ffffff;
 }
 .brev{
-  margin:50px;
+  margin:20px 100px;
+  background-color: #eaeaea;
 }
 .brev img {
     opacity: 0.7;
