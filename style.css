@@ -14,11 +14,14 @@ ul {
 
 nav{
   display: flex;
-  font-size: 14pt;
   justify-content: flex-end;
   font-family: 'Gloria Hallelujah', cursive;
-  text-align: center;
+  font-size: x-large;
   margin-right: 20px;
+  padding: 10px 0 0 0 ;
+  font-size: 17px;
+  padding-left: 40px;
+
 }
 
 .top_menu{
@@ -64,14 +67,7 @@ li {
   height: 80px;
 }
 
-nav{
-  display: flex;
-  justify-content: flex-end;
-  font-family: 'Gloria Hallelujah', cursive;
-  font-size: x-large;
-  margin-right: 20px;
-  padding-left: 20px;
-}
+
 
 main{
   width: 100%;
@@ -417,7 +413,8 @@ float: right;
   .box1,
   .box2,
   .box3,
-  .box1b {
+  .box1b,
+  .box1a {
     width: 50%;
     max-height: 500px;
         }
