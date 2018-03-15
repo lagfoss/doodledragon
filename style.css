@@ -77,7 +77,7 @@ nav{
   padding: 0;
   height: 600px;
   min-height: 380px;
-  background-image: url("foto/main2.jpg");
+  background-image: url("foto/main4.jpg");
   background-position: center;
   background-size: cover;
 
@@ -163,6 +163,7 @@ article{
 h1{
   font-family: 'Gloria Hallelujah', cursive;
   margin: auto;
+  color: #fff;
   text-align: center;
   padding-top: 50px;
 }
@@ -174,7 +175,17 @@ h2{
   font-family: 'Gloria Hallelujah', cursive;
   text-align: center;
 }
-
+.main h3{
+  font-family: 'Coming Soon', cursive;
+  text-align: center;
+  margin: auto;
+  color: #fff;
+  font-size: 20px;
+  font-weight: lighter;
+  font-style: italic;
+  padding: 0 100px 0 100px;
+  margin: 0px 0 60px 0;
+}
 h3{
   font-family: 'Coming Soon', cursive;
   text-align: center;
