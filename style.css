@@ -123,6 +123,11 @@ article{
   background-position: center;
   background-size: cover;
 }
+.box1a {
+  background-image: url("foto/in_book.jpg");
+  background-position: center;
+  background-size: cover;
+}
 
 .box1b {
   background-image: url("foto/camilla.png");
@@ -396,7 +401,8 @@ float: right;
   .box1,
   .box2,
   .box3,
-  .box1b{
+  .box1b,
+  .box1a{
     width: 50%;
     height: 500px;
     max-height: 500px;
