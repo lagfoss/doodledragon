@@ -73,6 +73,9 @@ main{
   padding: 0;
   height: 650px;
   min-height: 380px;
+  background-image: url("foto/main4.jpg");
+  background-position: center;
+  background-size: cover;
 }
 .centered {
     position: absolute;
