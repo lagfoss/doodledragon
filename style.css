@@ -168,7 +168,6 @@ h1{
   text-align: center;
   padding-top: 50px;
 }
-<<<<<<< HEAD
 .error h1{
   font-family: 'Gloria Hallelujah', cursive;
   margin: auto;
@@ -176,8 +175,6 @@ h1{
   text-align: center;
   padding-top: 50px;
 }
-=======
->>>>>>> parent of 99107bf... Merge branch 'master' of https://github.com/lagfoss/doodledragon
 .indhold h2{
   margin: auto;
   text-align: left;
@@ -304,12 +301,17 @@ input[type=submit] {
     border-radius: 5px;
     background-color: #eaeaea;
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding: 50px 100px 100px 100px;
 
 =======
     padding: 5px 100px 100px 100px;
     margin: 20px 0 0 0;
 >>>>>>> e99c855e68a8975ccaf8bed1725392d770b01986
+=======
+    padding: 50px 100px 100px 100px;
+
+>>>>>>> 2c175f412d48c1c0b8c59db55e947874741a1fd5
 }
 
 .col-25 {
