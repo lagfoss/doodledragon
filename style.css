@@ -224,16 +224,24 @@ header {
   min-height: 90px;
   background-color: #ffffff;
 }
-.brev{
-  margin:20px 100px;
-  background-color: #eaeaea;
+.brev1{
+  margin: 25px 5px 25px 50px;
 }
-.brev img {
+.brev2{
+  margin: 25px 50px 25px 0px;
+}
+.brevleft{
+  float: left;
+}
+.brevright{
+  float: right;
+}
+/*.brev img {
     opacity: 0.8;
     filter: alpha(opacity=70); /* For IE8 and earlier */
 }
 
-.brev img:hover {
+/*.brev img:hover {
     opacity: 1.0;
     filter: alpha(opacity=100); /* For IE8 and earlier */
 }
@@ -296,8 +304,8 @@ input[type=submit] {
 .kontakt {
     border-radius: 5px;
     background-color: #eaeaea;
-    padding: 5px 100px 100px 100px;
-    margin: 20px 0 0 0;
+    padding: 50px 100px 100px 100px;
+  
 }
 
 .col-25 {
