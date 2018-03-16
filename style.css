@@ -72,14 +72,12 @@ main{
   margin: 20px 0 0 0;
   padding: 0;
   height: 650px;
+  background-image: url("foto/main4.jpg");
+  background-position: center;
+  background-size: cover;
   min-height: 380px;
 }
-.centered {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 .indhold {
   display: flex;
   flex-wrap: wrap;
