@@ -57,7 +57,7 @@ li {
 }
 
 .clear{
-  width: 100%
+  width: 100%;
   clear: both;
 }
 
@@ -101,7 +101,6 @@ article{
   color: #1d1d1b;
 }
 
-}
 .indhold h2{
   color:#1d1d1b;
   margin: auto;
@@ -234,15 +233,6 @@ header {
 }
 .brevright{
   float: right;
-}
-/*.brev img {
-    opacity: 0.8;
-    filter: alpha(opacity=70); /* For IE8 and earlier */
-}
-
-/*.brev img:hover {
-    opacity: 1.0;
-    filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 /* CONTACT Form*/
@@ -495,11 +485,6 @@ float: right;
 }
 
 .sm{
-float: left;
+  float: left;
   line-height: 2;
-}
-.contactback {
-  background-image: src:image("foto/mur111.png");
-  background-repeat: repeat-x;
-  background-repeat: repeat-y;
 }
