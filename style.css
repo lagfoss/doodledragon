@@ -83,21 +83,6 @@ main{
   flex-wrap: wrap;
   font-family: 'Coming Soon', cursive;
 }
-.contact_img{
-  width: 100%;
-  margin: 20px 0 0 0;
-  padding: 0;
-  height: 650px;
-  background-image: url("foto/borg1.png");
-  background-position: center;
-  background-size: cover;
-  min-height: 380px;
-}
-
-.white{
-  color: #fff;
-}
-
 
 article{
   margin: auto;
@@ -187,11 +172,10 @@ h1{
   text-align: center;
   padding-top: 50px;
 }
-.error{
+.error h1{
   font-family: 'Gloria Hallelujah', cursive;
   margin: auto;
   color: #000000;
-  font-size: 50px;
   text-align: center;
   padding-top: 50px;
 }
@@ -511,4 +495,9 @@ float: right;
 .sm{
 float: left;
   line-height: 2;
+}
+.contactback {
+  background-image src:("foto/mur111.png");
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
 }
