@@ -83,6 +83,21 @@ main{
   flex-wrap: wrap;
   font-family: 'Coming Soon', cursive;
 }
+.contact_img{
+  width: 100%;
+  margin: 20px 0 0 0;
+  padding: 0;
+  height: 650px;
+  background-image: url("foto/borg1.png");
+  background-position: center;
+  background-size: cover;
+  min-height: 380px;
+}
+
+.white{
+  color: #fff;
+}
+
 
 article{
   margin: auto;
