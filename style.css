@@ -72,12 +72,14 @@ main{
   margin: 20px 0 0 0;
   padding: 0;
   height: 650px;
-  background-image: url("foto/main4.jpg");
-  background-position: center;
-  background-size: cover;
   min-height: 380px;
 }
-
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .indhold {
   display: flex;
   flex-wrap: wrap;
@@ -91,8 +93,7 @@ article{
   vertical-align: middle;
   width: 75%;
   height: 75%;
-  font-size: 15px;
-  letter-spacing: 1.4pt;
+  letter-spacing: 1.6pt;
   line-height: 1.5;
   color: #1d1d1b;
 }
@@ -101,7 +102,7 @@ article{
 .indhold h2{
   color:#1d1d1b;
   margin: auto;
-
+  font-size: 24px;
   text-align: left;
 }
 
@@ -111,11 +112,6 @@ article{
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.billede{
-  max-width: 100%;
-    height: auto;
 }
 
 .box1 {
@@ -172,6 +168,7 @@ h1{
   text-align: center;
   padding-top: 50px;
 }
+<<<<<<< HEAD
 .error h1{
   font-family: 'Gloria Hallelujah', cursive;
   margin: auto;
@@ -179,17 +176,19 @@ h1{
   text-align: center;
   padding-top: 50px;
 }
+=======
+>>>>>>> parent of 99107bf... Merge branch 'master' of https://github.com/lagfoss/doodledragon
 .indhold h2{
   margin: auto;
   text-align: left;
-
+  font-size: 30px;
   margin: -40px 0 20px 0;
   font-family: 'Gloria Hallelujah', cursive;
 
 }
 h2{
   margin: auto;
-font-size: px;
+  font-size: 30px;
   margin: 60px 0 20px 0;
   font-family: 'Gloria Hallelujah', cursive;
   text-align: center;
@@ -304,8 +303,8 @@ input[type=submit] {
 .kontakt {
     border-radius: 5px;
     background-color: #eaeaea;
-    padding: 50px 100px 100px 100px;
-  
+    padding: 5px 100px 100px 100px;
+    margin: 20px 0 0 0;
 }
 
 .col-25 {
@@ -397,12 +396,6 @@ float: right;
   line-height: 2;
 }
 
-.doodle_frog {
-  width: 20%;
-  height: 20%;
-  margin: auto;
-  padding: auto;
-}
 
 @media (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
