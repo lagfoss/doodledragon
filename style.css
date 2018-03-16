@@ -505,7 +505,7 @@ float: left;
   line-height: 2;
 }
 .contactback {
-  background-image src:("foto/mur111.png");
+  background-image: src:image("foto/mur111.png");
   background-repeat: repeat-x;
   background-repeat: repeat-y;
 }
