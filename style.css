@@ -72,32 +72,19 @@ main{
   margin: 20px 0 0 0;
   padding: 0;
   height: 650px;
-  background-image: url("foto/main4.jpg");
-  background-position: center;
-  background-size: cover;
   min-height: 380px;
 }
-
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .indhold {
   display: flex;
   flex-wrap: wrap;
   font-family: 'Coming Soon', cursive;
 }
-.contact_img{
-  width: 100%;
-  margin: 20px 0 0 0;
-  padding: 0;
-  height: 650px;
-  background-image: url("foto/borg1.png");
-  background-position: center;
-  background-size: cover;
-  min-height: 380px;
-}
-
-.white{
-  color: #fff;
-}
-
 
 article{
   margin: auto;
@@ -106,8 +93,7 @@ article{
   vertical-align: middle;
   width: 75%;
   height: 75%;
-  font-size: 15px;
-  letter-spacing: 1.4pt;
+  letter-spacing: 1.6pt;
   line-height: 1.5;
   color: #1d1d1b;
 }
@@ -116,7 +102,7 @@ article{
 .indhold h2{
   color:#1d1d1b;
   margin: auto;
-
+  font-size: 24px;
   text-align: left;
 }
 
@@ -126,11 +112,6 @@ article{
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.billede{
-  max-width: 100%;
-    height: auto;
 }
 
 .box1 {
@@ -187,25 +168,27 @@ h1{
   text-align: center;
   padding-top: 50px;
 }
-.error{
+<<<<<<< HEAD
+.error h1{
   font-family: 'Gloria Hallelujah', cursive;
   margin: auto;
   color: #000000;
-  font-size: 50px;
   text-align: center;
   padding-top: 50px;
 }
+=======
+>>>>>>> parent of 99107bf... Merge branch 'master' of https://github.com/lagfoss/doodledragon
 .indhold h2{
   margin: auto;
   text-align: left;
-
+  font-size: 30px;
   margin: -40px 0 20px 0;
   font-family: 'Gloria Hallelujah', cursive;
 
 }
 h2{
   margin: auto;
-font-size: px;
+  font-size: 30px;
   margin: 60px 0 20px 0;
   font-family: 'Gloria Hallelujah', cursive;
   text-align: center;
@@ -240,16 +223,24 @@ header {
   min-height: 90px;
   background-color: #ffffff;
 }
-.brev{
-  margin:20px 100px;
-  background-color: #eaeaea;
+.brev1{
+  margin: 25px 5px 25px 50px;
 }
-.brev img {
+.brev2{
+  margin: 25px 50px 25px 0px;
+}
+.brevleft{
+  float: left;
+}
+.brevright{
+  float: right;
+}
+/*.brev img {
     opacity: 0.8;
     filter: alpha(opacity=70); /* For IE8 and earlier */
 }
 
-.brev img:hover {
+/*.brev img:hover {
     opacity: 1.0;
     filter: alpha(opacity=100); /* For IE8 and earlier */
 }
@@ -312,8 +303,13 @@ input[type=submit] {
 .kontakt {
     border-radius: 5px;
     background-color: #eaeaea;
+<<<<<<< HEAD
     padding: 50px 100px 100px 100px;
 
+=======
+    padding: 5px 100px 100px 100px;
+    margin: 20px 0 0 0;
+>>>>>>> e99c855e68a8975ccaf8bed1725392d770b01986
 }
 
 .col-25 {
@@ -405,12 +401,6 @@ float: right;
   line-height: 2;
 }
 
-.doodle_frog {
-  width: 20%;
-  height: 20%;
-  margin: auto;
-  padding: auto;
-}
 
 @media (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
@@ -511,4 +501,9 @@ float: right;
 .sm{
 float: left;
   line-height: 2;
+}
+.contactback {
+  background-image src:("foto/mur111.png");
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
 }
