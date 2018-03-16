@@ -218,8 +218,8 @@ header {
   background-color: #eaeaea;
 }
 .brev img {
-    opacity: 0.7;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+    opacity: 0.8;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
 }
 
 .brev img:hover {
