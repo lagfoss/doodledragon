@@ -91,7 +91,8 @@ article{
   vertical-align: middle;
   width: 75%;
   height: 75%;
-  letter-spacing: 1.6pt;
+  font-size: 15px;
+  letter-spacing: 1.4pt;
   line-height: 1.5;
   color: #1d1d1b;
 }
@@ -100,7 +101,7 @@ article{
 .indhold h2{
   color:#1d1d1b;
   margin: auto;
-  font-size: 24px;
+
   text-align: left;
 }
 
@@ -110,6 +111,11 @@ article{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.billede{
+  max-width: 100%;
+    height: auto;
 }
 
 .box1 {
@@ -166,17 +172,24 @@ h1{
   text-align: center;
   padding-top: 50px;
 }
+.error h1{
+  font-family: 'Gloria Hallelujah', cursive;
+  margin: auto;
+  color: #000000;
+  text-align: center;
+  padding-top: 50px;
+}
 .indhold h2{
   margin: auto;
   text-align: left;
-  font-size: 30px;
+
   margin: -40px 0 20px 0;
   font-family: 'Gloria Hallelujah', cursive;
 
 }
 h2{
   margin: auto;
-  font-size: 30px;
+font-size: px;
   margin: 60px 0 20px 0;
   font-family: 'Gloria Hallelujah', cursive;
   text-align: center;
